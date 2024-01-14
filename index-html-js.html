@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="roothtml">
+        <h1>WTF is REACT using html tag</h1>
+    </div>
+    <div id="rootjs">
+    </div>
+    <script>
+        //create h4 tag
+        const h4Tag = document.createElement("h4");
+        // put value into the h4tag
+        h4Tag.innerHTML = "WTF is REACT using JavaScript";
+        //get html div element
+        const rootJsDiv = document.getElementById("rootjs");
+        //append h4tag to the rootJsDiv
+        rootJsDiv.appendChild(h4Tag);
+    </script>
+</body>
+</html>

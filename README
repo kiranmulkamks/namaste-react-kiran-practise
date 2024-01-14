@@ -1,3 +1,6 @@
-Current Working Directory
 EP03
-- 
+- Adding NPM Scripts in package.json (start -> generates dev build, build -> generates prod build)
+- Create ReactElement using React & JSX
+- Create Functional Component
+- Component Composition
+- Render React Element vs Functional Component
